@@ -1,2 +1,4 @@
-# OOP244-Labs
-Workshops for OOP244
+# This is the repository for OOP244 - Summer 2018
+Included are:
+  Workshops
+  Milestones
