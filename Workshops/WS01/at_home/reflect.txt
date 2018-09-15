@@ -1,0 +1,26 @@
+Jordan Witley
+142433176
+Peter Liu
+5/23/2018
+
+1. What is namespace?
+
+A namespace is a scope for the entities it encloses. Scoping rules avoid identifier conflicts across different namespaces.
+
+2. Why are header files needed?
+
+Header files are needed to define the function prototypes that were declared in their corresponding .cpp files.
+
+3. In the instructions above, you were directed to compile only .cpp files but not the .h files. 
+Explain why you should never compile header files.
+
+The header files are included in the implementation files, so it is already being compiled with implementation file it is in.
+
+4. Explain why you should never include .cpp files in another file.
+
+You should never include a .cpp file in another file because the .cpp file is linked to the main.cpp file already. 
+Also, you will get errors that the function prototypes are undefined, and any other errors in that area.
+
+5. Explain in your own words what have you learned on this workshop.
+
+I learned how to properly use a namespace, and how to use a safeguard. 
