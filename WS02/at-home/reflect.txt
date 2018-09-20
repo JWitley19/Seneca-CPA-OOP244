@@ -1,0 +1,14 @@
+Workshop #2 Reflection
+
+1. You need to allocate new dynamic memory when you increase the size
+of an existing array of dynamincally allocated memory because when you increase
+the size of the array there needs to be more memory. Which the existing array of dynamically
+allocated memory doesn't have.
+
+2. We don't need to use the delete operator on the array itself because the 
+delete operator can only work on pointers not the array itself.
+
+3. The compiler knows which definition to call based off of the parameters 
+that are set in the function.
+
+4. I learned how to allocate and deallocate memory.
