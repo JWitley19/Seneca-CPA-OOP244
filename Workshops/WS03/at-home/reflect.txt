@@ -1,0 +1,16 @@
+Reflection #3
+
+1.
+There are two elements in each of the C-style character strings that stores a family
+or given name for the account. The reason for this is because max_name_length has a value of 
+40 characters which represents the number of characters for any name of the account holder.
+The secound element is the null byte ('\0'), which is entered after.
+
+2.
+The feature that allows two functions to have the same name is called Function Overloading.
+
+3.
+I learned how to create a class with private members, instantiate an object of class type,
+how to access data within an object of class type through public member functions, how to 
+use standard library facilities to format data inserted into the output stream.
+

@@ -1,0 +1,23 @@
+Script started on Sat 02 Jun 2018 02:17:26 AM EDT
+]0;jwitley@mtrx-node04pd:~/OOP244/Workshops/WS03/in-lab[?1034h[jwitley@mtrx-node04pd in-lab]$ ws
+Canada Revenue Agency Account App
+=================================
+
+Please enter your family name: Doe
+Please enter your given name: Jane
+Please enter your social insurance number (0 to quit): 234
+Invalid input! Try again.
+Please enter your social insurance number (0 to quit): 1234567890
+Invalid input! Try again.
+Please enter your social insurance number (0 to quit): 193456787
+----------------------------------------
+Testing the display function
+----------------------------------------
+Family Name: Doe
+Given Name : Jane
+CRA Account: 193456787
+----------------------------------------
+]0;jwitley@mtrx-node04pd:~/OOP244/Workshops/WS03/in-lab[jwitley@mtrx-node04pd in-lab]$ exit
+exit
+
+Script done on Sat 02 Jun 2018 02:17:46 AM EDT
