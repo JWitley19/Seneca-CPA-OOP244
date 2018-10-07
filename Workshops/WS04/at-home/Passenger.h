@@ -1,11 +1,15 @@
-// Name: Jordan Witley
-// Date: 03/09/2018
+/**********************************************************
+ * Name: Jordan Witley
+ * Student ID: 142433176
+ * Seneca email: jwitley@myseneca.ca
+ * Date of Completion: 04/10/2018
+ **********************************************************/
 
-// TODO: add file header comments here
+ // TODO: add file header comments here
 
-// TODO: add header file guard here
-#ifndef Passenger_H_
-#define Passenger_H_
+ // TODO: add header file guard here
+#ifndef SICT_PASSENGER_H_
+#define SICT_PASSENGER_H_
 
 
 // TODO: declare your namespace here
@@ -17,8 +21,8 @@ namespace sict
 	class Passenger
 	{
 	private:
-		char passName[32];
-		char dest[32];
+		char p_passName[32];
+		char d_dest[32];
 		int n_year;
 		int n_month;
 		int n_day;
@@ -34,5 +38,6 @@ namespace sict
 	};
 
 }
-#endif // !Passenger_H_
+#endif // !SICT_PASSENGER_H_
+
 

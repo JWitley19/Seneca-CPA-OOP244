@@ -1,34 +1,37 @@
+Script started on Sat 29 Sep 2018 08:41:01 PM EDT
 ----------------------------------------
 Testing the validation logic
-(only passengers 5, 8 and 11 should be valid)
+(only passengers 5, 8, 11 and 14 should be valid)
 ----------------------------------------
-Passenger 1: not valid
-Passenger 2: not valid
-Passenger 3: not valid
-Passenger 4: not valid
-Passenger 5: valid
-Passenger 6: not valid
-Passenger 7: not valid
-Passenger 8: valid
-Passenger 9: not valid
-Passenger 10: not valid
-Passenger 11: valid
-Passenger 12: not valid
-Passenger 13: not valid
-Passenger 14: not valid
-Passenger 15: not valid
+Passenger 1: No passenger!
+Passenger 2: No passenger!
+Passenger 3: No passenger!
+Passenger 4: No passenger!
+Passenger 5: John Smith - Toronto on 2018/10/20
+Passenger 6: No passenger!
+Passenger 7: No passenger!
+Passenger 8: John Smith - Toronto on 2020/12/31
+Passenger 9: No passenger!
+Passenger 10: No passenger!
+Passenger 11: John Smith - Toronto on 2018/10/01
+Passenger 12: No passenger!
+Passenger 13: No passenger!
+Passenger 14: Christopher Szwart - Toronto on 2018/10/01
+Passenger 15: No passenger!
+Passenger 16: No passenger!
 ----------------------------------------
 
 ----------------------------------------
 Testing Passenger::display(...)
 ----------------------------------------
-Vanessa - Toronto on 2018/04/20
-John - Toronto on 2018/04/20
-Alice - Toronto on 2018/04/20
-Bob - Paris on 2018/01/20
-Jennifer - Toronto on 2018/04/20
-Mike - Toronto on 2018/04/20
-Sarah - Toronto on 2018/04/20
+Vanessa - Toronto on 2018/10/20
+John - Toronto on 2018/10/20
+Alice - Toronto on 2018/10/20
+Bob - Paris on 2018/11/20
+Jennifer - Toronto on 2018/10/20
+Mike - Toronto on 2018/10/20
+Christopher Szwart - Toronto on 2018/10/20
+Sarah - Toronto on 2018/10/20
 ----------------------------------------
 
 ----------------------------------------
@@ -39,6 +42,9 @@ David can travel with John
 David can travel with Alice
 David can travel with Jennifer
 David can travel with Mike
+David can travel with Christopher Szwart
 David can travel with Sarah
 ----------------------------------------
 
+
+Script done on Sat 29 Sep 2018 08:41:02 PM EDT

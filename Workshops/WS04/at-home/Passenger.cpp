@@ -1,11 +1,16 @@
-// Name: Jordan Witley
-// 03/10/2018
+/**********************************************************
+ * Name: Jordan Witley
+ * Student ID: 142433176
+ * Seneca email: jwitley@myseneca.ca
+ * Date of Completion: 04/10/2018
+ **********************************************************/
 
 #define _CRT_SECURE_NO_WARNINGS
 
-// TODO: add file header comments here
+ // TODO: add file header comments here
 #include <iostream>
 #include <cstring>
+#include <iomanip>
 
 // TODO: add your headers here
 #include "Passenger.h"
@@ -23,8 +28,8 @@ namespace sict
 
 	Passenger::Passenger()
 	{
-		passName[0] = '\0';
-		dest[0] = '\0';
+		p_passName[0] = '\0';
+		d_dest[0] = '\0';
 		n_year = 0;
 		n_month = 0;
 		n_day = 0;
@@ -32,9 +37,9 @@ namespace sict
 
 
 
-	// Check to see if the data is valid - set the departure to July 1 2017
+	// Check to see if the data is valid - set the departure to October 1 2018
 
-	Passenger::Passenger(const char* pName, const char* destination)
+    Passenger::Passenger(const char* pName, const char* destination)
 	{
 		bool nameInvalid = pName == nullptr;
 		bool destInvalid = destination == nullptr;
@@ -42,8 +47,10 @@ namespace sict
 
 		if (!invalid)
 		{
-			n_year = 2017;
-			n_month = 7;
+      strncpy(p_passName,pName,18);
+      strncpy(d_dest, destination, 19);
+			n_year = 2018;
+			n_month = 10;
 			n_day = 1;
 		}
 	}
@@ -62,8 +69,8 @@ namespace sict
 		}
 		else
 		{
-			strcpy(passName, name);
-			strcpy(dest, destination);
+			strncpy(p_passName, name,18);
+			strncpy(d_dest, destination, 19);
 			n_year = year;
 			n_month = month;
 			n_day = day;
@@ -75,7 +82,7 @@ namespace sict
 
 	bool Passenger::isEmpty(void) const
 	{
-		bool valid = strlen(passName) > 0 && strlen(dest) > 0 && n_day != 0 && n_month != 0 && n_year != 0;
+		bool valid = strlen(p_passName) > 0 && strlen(d_dest) > 0 && n_day != 0 && n_month != 0 && n_year != 0;
 		return !valid;
 	}
 
@@ -84,27 +91,20 @@ namespace sict
 	void Passenger::display(void) const
 	{
 		// If the name or destination is empty
-		if (passName[0] == '\0' || dest[0] == '\0' || n_year == 0 || n_month == 0 || n_day == 0)
+		if (isEmpty())
 		{
 			cout << "No passenger!" << endl;
 		}
 		else
 		{
-			if (n_month > 0 && n_month < 10)
-			{
-				cout << passName << " - " << dest << " on " << n_year << "/0" << n_month << "/" << n_day << endl;
-			}
-			else
-			{
-				cout << passName << " - " << dest << " on " << n_year << "/" << n_month << "/" << n_day << endl;
-			}
+				cout << p_passName << " - " << d_dest << " on " << n_year << "/" << setw(2) << setfill('0') << n_month << "/" << setw(2) << setfill('0') << n_day << endl;
 		}
 	}
 
 	//TODO: Create .name() method
 	const char* Passenger::name(void) const
 	{
-		return passName;
+		return p_passName;
 	}
 
 	bool Passenger::canTravelWith(const Passenger& p) const
