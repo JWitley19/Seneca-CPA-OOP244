@@ -1,0 +1,19 @@
+Workshop 5 Reflection
+
+1. If operator+ returns a reference to a Fraction object than the
+Fraction object is overloaded. And the new data that the Fraction object
+receives is set as the object parameter.
+
+2. temp.n_numerator, temp.n_denominator
+
+3. I created a temporary fraction object that holds the temporary numerator and
+temporary denominator.
+
+4. I learned how to use the overload operator(+,*,==,!=,+=) which helped me as a 
+member function of the class type Fraction.
+
+Quiz 4 Reflection
+
+1. zero
+2. The scope resolution operator(::) and the member selection operator(.)
+5. error
