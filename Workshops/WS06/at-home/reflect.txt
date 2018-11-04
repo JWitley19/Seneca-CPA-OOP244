@@ -1,0 +1,17 @@
+Jordan Witley
+31/10/2018
+
+Workshop 6 At Home Reflection
+
+1. The copy assignment operator checks for self-assignment before doing anything else
+because the operator receives an unmodifiable reference to a Contact object, so the copy
+of that object returns a reference to  the current objected, as updated.
+
+2. I avoided duplication by adding a temporary object in the overload += operator. This 
+temporary object receives a new phone number as its parameter. Anf=d validates the number 
+received. If the number is valid, the number array is resized to hold all of the existing 
+numbers plus the received one, and adds the new number to the array. If the number is not 
+valid, this operator will have the original array and does not add the new number. Either
+way, this overload += operator returns a reference to he current object.
+
+3.I learned how to define a copy consructor and define an assignment operator.

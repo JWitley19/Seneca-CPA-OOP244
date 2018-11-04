@@ -1,0 +1,45 @@
+Script started on Sat Nov  3 18:23:34 2018
+----------------------------------------
+Maximum no of characters in a name: 20
+John Doe
+*** Error in `ws': munmap_chunk(): invalid pointer: 0x00007f381efd4cc9 ***
+======= Backtrace: =========
+/lib64/libc.so.6(+0x7ab54)[0x7f381f016b54]
+ws[0x4016a9]
+ws[0x4017f5]
+/lib64/libc.so.6(__libc_start_main+0xf5)[0x7f381efbdc05]
+ws[0x400bc9]
+======= Memory map: ========
+00400000-00402000 r-xp 00000000 00:28 3285855337                         /home/jwitley/OOP244/Workshops/WS06/at-home/ws
+00602000-00603000 r--p 00002000 00:28 3285855337                         /home/jwitley/OOP244/Workshops/WS06/at-home/ws
+00603000-00604000 rw-p 00003000 00:28 3285855337                         /home/jwitley/OOP244/Workshops/WS06/at-home/ws
+022c7000-022e8000 rw-p 00000000 00:00 0                                  [heap]
+7f381ef9c000-7f381f154000 r-xp 00000000 fd:00 31789                      /usr/lib64/libc-2.17.so
+7f381f154000-7f381f354000 ---p 001b8000 fd:00 31789                      /usr/lib64/libc-2.17.so
+7f381f354000-7f381f358000 r--p 001b8000 fd:00 31789                      /usr/lib64/libc-2.17.so
+7f381f358000-7f381f35a000 rw-p 001bc000 fd:00 31789                      /usr/lib64/libc-2.17.so
+7f381f35a000-7f381f35f000 rw-p 00000000 00:00 0 
+7f381f35f000-7f381f374000 r-xp 00000000 fd:00 507                        /usr/lib64/libgcc_s-4.8.5-20150702.so.1
+7f381f374000-7f381f573000 ---p 00015000 fd:00 507                        /usr/lib64/libgcc_s-4.8.5-20150702.so.1
+7f381f573000-7f381f574000 r--p 00014000 fd:00 507                        /usr/lib64/libgcc_s-4.8.5-20150702.so.1
+7f381f574000-7f381f575000 rw-p 00015000 fd:00 507                        /usr/lib64/libgcc_s-4.8.5-20150702.so.1
+7f381f575000-7f381f676000 r-xp 00000000 fd:00 31798                      /usr/lib64/libm-2.17.so
+7f381f676000-7f381f875000 ---p 00101000 fd:00 31798                      /usr/lib64/libm-2.17.so
+7f381f875000-7f381f876000 r--p 00100000 fd:00 31798                      /usr/lib64/libm-2.17.so
+7f381f876000-7f381f877000 rw-p 00101000 fd:00 31798                      /usr/lib64/libm-2.17.so
+7f381f877000-7f381f960000 r-xp 00000000 fd:00 32180                      /usr/lib64/libstdc++.so.6.0.19
+7f381f960000-7f381fb60000 ---p 000e9000 fd:00 32180                      /usr/lib64/libstdc++.so.6.0.19
+7f381fb60000-7f381fb68000 r--p 000e9000 fd:00 32180                      /usr/lib64/libstdc++.so.6.0.19
+7f381fb68000-7f381fb6a000 rw-p 000f1000 fd:00 32180                      /usr/lib64/libstdc++.so.6.0.19
+7f381fb6a000-7f381fb7f000 rw-p 00000000 00:00 0 
+7f381fb7f000-7f381fba0000 r-xp 00000000 fd:00 21663                      /usr/lib64/ld-2.17.so
+7f381fd88000-7f381fd8d000 rw-p 00000000 00:00 0 
+7f381fd9d000-7f381fda0000 rw-p 00000000 00:00 0 
+7f381fda0000-7f381fda1000 r--p 00021000 fd:00 21663                      /usr/lib64/ld-2.17.so
+7f381fda1000-7f381fda2000 rw-p 00022000 fd:00 21663                      /usr/lib64/ld-2.17.so
+7f381fda2000-7f381fda3000 rw-p 00000000 00:00 0 
+7ffcaf797000-7ffcaf7b8000 rw-p 00000000 00:00 0                          [stack]
+7ffcaf7c1000-7ffcaf7c3000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+
+Script done on Sat Nov  3 18:23:34 2018

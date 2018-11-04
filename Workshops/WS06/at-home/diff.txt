@@ -1,0 +1,10 @@
+
+In line number 5 of your output:
+The output should be:
+John Doe
+But your output is: 
+*** Error in `ws': munmap_chunk(): invalid pointer: 0x00007f381efd4cc9 ***
+^
+|
+Professor's character ASCII code: hex(4a), dec(74)
+un-matched character ASCII code: hex(2a), dec(42)
