@@ -1,0 +1,17 @@
+WS 7 Reflection
+
+1. The Hero class does not need to know about the of the SuperHero class, because the SupperHero
+class is not of use in the Hero implementation file. The word "SuperHero" does not appear
+anywhere.
+
+2. The SuperHero class needs to know sbout the existence of the Hero class, because the Hero class 
+is the derived class in this case and SuperHero is the base class. The word "Hero" does appear
+anywhere.
+
+3. It printed out "Ancient Battle!". I think it printed that out because the hero or superhero who is
+mentioned first, is what class they belong to. so if Wonder Woman was mentioned first, I think it would
+have printed out "Super Fight!".
+
+4. True, they would be valid expressions. The moment that the constructor is called (Only if the parameters are valid), the objects are created.
+
+5. True, they would be valid expressions. Same as the above answer. But the only thing that would be different, is the fact that the heroes were not saved in a variable.
